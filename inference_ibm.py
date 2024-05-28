@@ -144,7 +144,7 @@ def main():
 
                 # Save predictions to specified output dir
                 assert len(predictions) == prompts_df.shape[0]
-                prompts_df[f"predictions_{args.model_name}"] = "predictions"
+                prompts_df[f"predictions_{args.model_name}"] = predictions
                 prompts_df[["id", f"predictions_{args.model_name}"]].to_csv(
                     os.path.join(args.output_dir, filename.split("/")[-1]), index=False
                 )
@@ -152,7 +152,8 @@ def main():
 
 
 if __name__ == "__main__":
-    task_runner = main(parallel=args.nprocess)
+    # task_runner = main(parallel=args.nprocess)
+    main()
 
 ### Sample Usage
 """
