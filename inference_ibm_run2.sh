@@ -4,7 +4,7 @@ python inference_ibm.py \
     --batch_size=100 \
     --nprocess=1 \
     --max_new_tokens=128 \
-    --prompts_dir=prompts/new/Mixtral-8x7B-Instruct-v0.1_distractor_passages=0 \
+    --prompts_dir=prompts/new/prompts_Mixtral-8x7B-Instruct-v0.1_distractor_passages=0 \
     --output_dir=predictions/Mixtral-8x7B-Instruct-v0.1_distractor_passages=0 \
 ;
 
@@ -13,7 +13,7 @@ python inference_ibm.py \
     --batch_size=100 \
     --nprocess=1 \
     --max_new_tokens=128 \
-    --prompts_dir=prompts/new/Meta-Llama-3-70B-Instruct_distractor_passages=0 \
+    --prompts_dir=prompts/new/prompts_Meta-Llama-3-70B-Instruct_distractor_passages=0 \
     --output_dir=predictions/Meta-Llama-3-70B-Instruct_distractor_passages=0 \
 ;
 
@@ -22,7 +22,7 @@ python inference_ibm.py \
     --batch_size=100 \
     --nprocess=1 \
     --max_new_tokens=128 \
-    --prompts_dir=prompts/new/Mistral-7B-Instruct-v0.2_distractor_passages=0 \
+    --prompts_dir=prompts/new/prompts_Mistral-7B-Instruct-v0.2_distractor_passages=0 \
     --output_dir=predictions/Mistral-7B-Instruct-v0.2_distractor_passages=0 \
 ;
 
@@ -34,7 +34,7 @@ python inference_ibm.py \
     --batch_size=100 \
     --nprocess=1 \
     --max_new_tokens=128 \
-    --prompts_dir=prompts/new/Meta-Llama-3-70B-Instruct_4k \
+    --prompts_dir=prompts/new/prompts_Meta-Llama-3-70B-Instruct_4k \
     --output_dir=predictions/Meta-Llama-3-70B-Instruct_4k \
 ;
 
@@ -45,7 +45,7 @@ python inference_ibm.py \
     --batch_size=100 \
     --nprocess=1 \
     --max_new_tokens=128 \
-    --prompts_dir=prompts/new/Mistral-7B-Instruct-v0.2_4k \
+    --prompts_dir=prompts/new/prompts_Mistral-7B-Instruct-v0.2_4k \
     --output_dir=predictions/Mistral-7B-Instruct-v0.2_4k \
 ;
 
@@ -54,7 +54,7 @@ python inference_ibm.py \
     --batch_size=100 \
     --nprocess=1 \
     --max_new_tokens=128 \
-    --prompts_dir=prompts/new/Mistral-7B-Instruct-v0.2_8k \
+    --prompts_dir=prompts/new/prompts_Mistral-7B-Instruct-v0.2_8k \
     --output_dir=predictions/Mistral-7B-Instruct-v0.2_8k \
 ;
 
@@ -63,7 +63,7 @@ python inference_ibm.py \
     --batch_size=100 \
     --nprocess=1 \
     --max_new_tokens=128 \
-    --prompts_dir=prompts/new/Mistral-7B-Instruct-v0.2_16k \
+    --prompts_dir=prompts/new/prompts_Mistral-7B-Instruct-v0.2_16k \
     --output_dir=predictions/Mistral-7B-Instruct-v0.2_16k \
 ;
 
@@ -75,7 +75,7 @@ python inference_ibm.py \
     --batch_size=100 \
     --nprocess=1 \
     --max_new_tokens=128 \
-    --prompts_dir=prompts/new/Mixtral-8x7B-Instruct-v0.1_4k \
+    --prompts_dir=prompts/new/prompts_Mixtral-8x7B-Instruct-v0.1_4k \
     --output_dir=predictions/Mixtral-8x7B-Instruct-v0.1_4k \
 ;
 
@@ -84,7 +84,7 @@ python inference_ibm.py \
     --batch_size=100 \
     --nprocess=1 \
     --max_new_tokens=128 \
-    --prompts_dir=prompts/new/Mixtral-8x7B-Instruct-v0.1_8k \
+    --prompts_dir=prompts/new/prompts_Mixtral-8x7B-Instruct-v0.1_8k \
     --output_dir=predictions/Mixtral-8x7B-Instruct-v0.1_8k \
 ;
 
@@ -93,6 +93,6 @@ python inference_ibm.py \
     --batch_size=100 \
     --nprocess=1 \
     --max_new_tokens=128 \
-    --prompts_dir=prompts/new/Mixtral-8x7B-Instruct-v0.1_16k \
+    --prompts_dir=prompts/new/prompts_Mixtral-8x7B-Instruct-v0.1_16k \
     --output_dir=predictions/Mixtral-8x7B-Instruct-v0.1_16k \
 ;
