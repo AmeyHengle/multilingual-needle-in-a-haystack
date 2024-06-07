@@ -125,6 +125,10 @@ def get_generations_bam(
 def main():
     if args.prompts_dir != None:
         for filename in glob.glob(f"{args.prompts_dir}/*.csv"):
+            outfile = os.path.join(args.output_dir, filename.split("/")[-1])
+            if os.path.exists(outfile): # Skip existing predictions
+                print(f"Skipping {filename}, predictions exist.")
+
             prompts_df = pd.read_csv(filename)
             if (
                 f"predictions_{args.model_name}" not in prompts_df.columns
