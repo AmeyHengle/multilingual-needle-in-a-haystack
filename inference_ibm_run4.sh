@@ -3,7 +3,7 @@ python inference_ibm.py \
     --batch_size=100 \
     --nprocess=1 \
     --max_new_tokens=128 \
-    --prompts_dir=prompts/prompts_missing_2/prompts_Meta-Llama-3-70B-Instruct_4k \
+    --prompts_dir=prompts/prompts_missing_2/prompts_missing_aggregated/prompts_Meta-Llama-3-70B-Instruct_4k \
     --output_dir=predictions/Meta-Llama-3-70B-Instruct_4k \
 ;
 
@@ -12,7 +12,7 @@ python inference_ibm.py \
     --batch_size=100 \
     --nprocess=1 \
     --max_new_tokens=128 \
-    --prompts_dir=prompts/prompts_missing_2/prompts_Meta-Llama-3-70B-Instruct \
+    --prompts_dir=prompts/prompts_missing_2/prompts_missing_aggregated/prompts_Meta-Llama-3-70B-Instruct \
     --output_dir=predictions/Meta-Llama-3-70B-Instruct \
 ;
 
@@ -23,7 +23,7 @@ python inference_ibm.py \
     --batch_size=100 \
     --nprocess=1 \
     --max_new_tokens=128 \
-    --prompts_dir=prompts/prompts_missing_2/prompts_Mistral-7B-Instruct-v0.2 \
+    --prompts_dir=prompts/prompts_missing_2/prompts_missing_aggregated/prompts_Mistral-7B-Instruct-v0.2 \
     --output_dir=predictions/Mistral-7B-Instruct-v0.2 \
 ;
 
@@ -32,7 +32,7 @@ python inference_ibm.py \
     --batch_size=100 \
     --nprocess=1 \
     --max_new_tokens=128 \
-    --prompts_dir=prompts/prompts_missing_2/prompts_Mistral-7B-Instruct-v0.2_4k \
+    --prompts_dir=prompts/prompts_missing_2/prompts_missing_aggregated/prompts_Mistral-7B-Instruct-v0.2_4k \
     --output_dir=predictions/Mistral-7B-Instruct-v0.2_4k \
 ;
 
@@ -41,7 +41,7 @@ python inference_ibm.py \
     --batch_size=100 \
     --nprocess=1 \
     --max_new_tokens=128 \
-    --prompts_dir=prompts/prompts_missing_2/prompts_Mistral-7B-Instruct-v0.2_8k \
+    --prompts_dir=prompts/prompts_missing_2/prompts_missing_aggregated/prompts_Mistral-7B-Instruct-v0.2_8k \
     --output_dir=predictions/Mistral-7B-Instruct-v0.2_8k \
 ;
 
@@ -50,7 +50,7 @@ python inference_ibm.py \
     --batch_size=100 \
     --nprocess=1 \
     --max_new_tokens=128 \
-    --prompts_dir=prompts/prompts_missing_2/prompts_Mistral-7B-Instruct-v0.2_16k \
+    --prompts_dir=prompts/prompts_missing_2/prompts_missing_aggregated/prompts_Mistral-7B-Instruct-v0.2_16k \
     --output_dir=predictions/Mistral-7B-Instruct-v0.2_16k \
 ;
 
@@ -62,7 +62,7 @@ python inference_ibm.py \
     --batch_size=100 \
     --nprocess=1 \
     --max_new_tokens=128 \
-    --prompts_dir=prompts/prompts_missing_2/prompts_Mixtral-8x7B-Instruct-v0.1_4k \
+    --prompts_dir=prompts/prompts_missing_2/prompts_missing_aggregated/prompts_Mixtral-8x7B-Instruct-v0.1_4k \
     --output_dir=predictions/Mixtral-8x7B-Instruct-v0.1_4k \
 ;
 
@@ -71,6 +71,6 @@ python inference_ibm.py \
     --batch_size=100 \
     --nprocess=1 \
     --max_new_tokens=128 \
-    --prompts_dir=prompts/prompts_missing_2/prompts_Mixtral-8x7B-Instruct-v0.1 \
+    --prompts_dir=prompts/prompts_missing_2/prompts_missing_aggregated/prompts_Mixtral-8x7B-Instruct-v0.1 \
     --output_dir=predictions/Mixtral-8x7B-Instruct-v0.1 \
 ;
