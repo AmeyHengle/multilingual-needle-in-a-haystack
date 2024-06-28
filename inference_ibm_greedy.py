@@ -5,6 +5,7 @@ import gc
 import glob
 import os
 import sys
+import time
 
 import pandas as pd
 import torch
@@ -157,14 +158,28 @@ def main():
                 prompts_df["prompt"] = prompts_df["prompt"].apply(lambda x: x.replace(json_instruction, ''))
                 prompts = prompts_df["prompt"].values.tolist()
 
-                # Run the main function with the command line arguments
-                predictions = get_generations_bam_greedy(
-                    model_name=args.model_name,
-                    prompts=prompts,
-                    max_new_tokens=args.max_new_tokens,
-                    batch_size=args.batch_size,
-                    args=args,
-                )
+                # Run the main function with the command line arguments (Num of retires = 5)
+                num_retries = 5
+                retry_delay = 900  # 15 minutes in seconds
+
+                for i in range(num_retries):
+                    try:
+                        predictions = get_generations_bam_greedy(
+                            model_name=args.model_name,
+                            prompts=prompts,
+                            max_new_tokens=args.max_new_tokens,
+                            batch_size=args.batch_size,
+                            args=args,
+                        )
+                        break  # Exit the loop if the operation is successful
+                    except Exception as e:
+                        if i == num_retries - 1:
+                            print(f"Maximum number of retries ({num_retries}) reached. Aborting.")
+                            raise e  # Re-raise the exception after the last retry
+                        else:
+                            print(f"Operation failed on attempt {i+1}. Retrying in {retry_delay/60:.2f} minutes...")
+                            time.sleep(retry_delay)
+                            continue
 
                 # Save predictions to specified output dir
                 assert len(predictions) == prompts_df.shape[0]
