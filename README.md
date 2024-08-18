@@ -5,7 +5,7 @@ Multilingual Needle-in-a-Haystack (MLNeedle).
 
 ### TLDR:
 
-We introduce **MultiLingual Needle-in-a-Haystack (MLNeedle) test** test, designed to evaluate the ability of multilingual large language models (LLMs) to retrieve relevant information from long multilingual contexts. Our results reveal that LLMs struggle with retrieving information when it is in non-Latin languages or positioned in the middle of a long context. Going further into these findings, we observe that the models show relatively stable performance when the distractor passages are in different languages but still face significant challenges in handling long multilingual contexts effectively.
+We introduce **MultiLingual Needle-in-a-Haystack (MLNeedle)** test, designed to evaluate the ability of multilingual large language models (LLMs) to retrieve relevant information from long multilingual contexts. Our results reveal that LLMs struggle with retrieving information when it is in non-Latin languages or positioned in the middle of a long context. Going further into these findings, we observe that the models show relatively stable performance when the distractor passages are in different languages but still face significant challenges in handling long multilingual contexts effectively.
 
 
 ## Installation
