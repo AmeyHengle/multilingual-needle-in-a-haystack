@@ -1,3 +1,5 @@
 prompts
 prompts/*
 .DS_Store
+data/
+predictions/
