@@ -3,3 +3,4 @@ prompts/*
 .DS_Store
 data/
 predictions/
+__pycache__/
