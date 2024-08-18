@@ -1,0 +1,341 @@
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Using device: cuda
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:  14%|█▍        | 1/7 [00:00<00:04,  1.39it/s]Loading checkpoint shards:  29%|██▊       | 2/7 [00:18<00:54, 10.88s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [01:07<01:52, 28.20s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [01:55<01:47, 35.86s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [02:45<01:21, 40.94s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [03:34<00:43, 43.79s/it]Loading checkpoint shards: 100%|██████████| 7/7 [04:00<00:00, 37.96s/it]Loading checkpoint shards: 100%|██████████| 7/7 [04:00<00:00, 34.34s/it]
+Total experiments: 168
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:zh,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.08s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.08s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:en,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.81s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.81s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:zh,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.27s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.27s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:ar,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.73s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.73s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:de,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.80s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.80s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:hi,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.42s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.42s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:zh,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.04s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.04s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:hi,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.61s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.61s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:vi,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:46<00:00, 106.33s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:46<00:00, 106.33s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:vi,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.10s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.10s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:ar,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.48s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.48s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:hi,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.53s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.53s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:zh,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:46<00:00, 106.90s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:46<00:00, 106.90s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:zh,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.06s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.07s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:es,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.37s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.37s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:hi,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.86s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.86s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:de,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.93s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.93s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:vi,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.96s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.97s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:en,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.71s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.71s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:zh,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.92s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.92s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:ar,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.48s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.48s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:es,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.17s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.17s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:hi,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:40<00:00, 100.71s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:40<00:00, 100.71s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:de,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.55s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.55s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:ar,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.09s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.09s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:es,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.16s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.16s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:es,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.52s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.52s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:ar,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.16s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.16s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:vi,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.92s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.92s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:es,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.95s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.95s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:en,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.95s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.95s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:en,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.12s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.12s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:zh,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.82s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.82s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:zh,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.78s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.78s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:ar,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.99s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.99s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:vi,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.20s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.20s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:zh,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.85s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.85s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:en,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.55s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.55s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:zh,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.17s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.17s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:de,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.69s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.69s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:vi,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.11s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.11s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:vi,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.08s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.08s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:de,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 104.00s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 104.00s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:en,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.45s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.45s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:ar,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.29s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.29s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:es,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.11s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.11s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:de,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.63s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.63s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:vi,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.31s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.31s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:vi,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.38s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.38s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:ar,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.06s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.06s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:es,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.44s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.44s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:en,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.21s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.22s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:zh,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.28s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.28s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:en,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:40<00:00, 100.73s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:40<00:00, 100.73s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:hi,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:38<00:00, 98.82s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:38<00:00, 98.82s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:en,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.29s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.29s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:en,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:41<00:00, 101.03s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:41<00:00, 101.03s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:en,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:40<00:00, 100.75s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:40<00:00, 100.75s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:zh,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.54s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.54s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:en,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.39s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.39s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:en,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.95s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.95s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:es,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.35s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.35s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:ar,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.85s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.85s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:ar,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.62s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.62s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:hi,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.99s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 105.00s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:en,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.40s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.40s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:de,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.65s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.65s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:en,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.85s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.85s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:ar,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.97s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.97s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:hi,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.60s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.60s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:zh,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.30s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:44<00:00, 104.30s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:es,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.71s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.71s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:es,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.81s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.81s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:de,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.70s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.70s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:hi,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.55s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.55s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:de,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:41<00:00, 101.13s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:41<00:00, 101.13s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:es,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.26s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.26s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:de,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:41<00:00, 101.97s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:41<00:00, 101.97s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:es,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.23s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.24s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:de,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:46<00:00, 106.70s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:46<00:00, 106.70s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:zh,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.67s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:45<00:00, 105.67s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:hi,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:end.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.46s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:43<00:00, 103.46s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:hi,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.57s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.58s/it]
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_CohereForAI-aya-23-8B_4k/context_lang:vi,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.99s/it]Running inference on 100 data points: 100%|██████████| 1/1 [01:42<00:00, 102.99s/it]
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present
+Skipping file since predictions already present

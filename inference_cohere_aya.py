@@ -1,0 +1,174 @@
+import argparse
+import gc
+import glob
+import os
+
+import pandas as pd
+import torch
+import transformers
+from tqdm import tqdm
+
+from utils import (dashed_line, experiment_dict_to_fname,
+                   fname_to_experiment_dict, load_json, save_json)
+
+
+def free_memory():
+    torch.cuda.empty_cache()
+    gc.collect()
+
+
+def postprocess_aya_output(output):
+    return [response[0]["generated_text"][1]["content"] for response in output]
+
+
+def format_inputs(prompts):
+    formatted_inputs = []
+    for prompt in prompts:
+        formatted_inputs.append([{"role": "user", "content": f"{prompt}"}])
+    return formatted_inputs
+
+
+def parse_predictions(predictions):
+    predictions_list = []
+    for prediction in predictions:
+        try:
+            predictions_list.append(prediction[0]["generated_text"][1]["content"])
+        except Exception as e:
+            print(f"Exception parsing model output: {prediction}")
+            print(e)
+            print(dashed_line)
+            predictions_list.append(prediction)
+
+    return predictions_list
+
+
+def inference(
+    model_name, prompts, batch_size=32, torch_dtype=torch.float16, device="cuda"
+):
+    free_memory()
+    predictions = []
+    tokenizer = transformers.AutoTokenizer.from_pretrained(model_name)
+
+    device = torch.device(device if torch.cuda.is_available() else "cpu")
+    print(f"Using device: {device}")
+
+    pipeline = transformers.pipeline(
+        "text-generation",
+        model=model_name,
+        tokenizer=tokenizer,
+        torch_dtype=torch_dtype,
+        trust_remote_code=True,
+        device=device,
+        do_sample=True,
+        temperature=0.1,
+        top_p=1,
+        top_k=50,
+        num_return_sequences=1,
+        eos_token_id=tokenizer.eos_token_id,
+        max_new_tokens=128,
+    )
+
+    for i in tqdm(
+        range(0, len(prompts), batch_size),
+        desc=f"Running inference on {len(prompts)} data points",
+    ):
+        batch_inputs = prompts[i : i + batch_size]
+        batch_inputs = format_inputs(batch_inputs)
+        preds = pipeline(batch_inputs)
+        predictions_parsed = parse_predictions(preds)
+        predictions.extend(predictions_parsed)
+
+    return predictions
+
+
+if __name__ == "__main__":
+
+    # Create the parser
+    parser = argparse.ArgumentParser(
+        description="Run the main function with command line arguments."
+    )
+
+    # Add the arguments
+    parser.add_argument(
+        "--prompts_file",
+        type=str,
+        required=False,
+        help="The path to the prompts file.",
+    )
+    parser.add_argument(
+        "--prompts_dir",
+        type=str,
+        required=False,
+        help="The directory to the experiments file.",
+    )
+    parser.add_argument(
+        "--output_dir",
+        type=str,
+        required=True,
+        help="The path to the output directory.",
+    )
+    parser.add_argument(
+        "--model_name", type=str, required=True, help="The name of the model."
+    )
+    parser.add_argument(
+        "--top_p",
+        type=float,
+        default=1.0,
+        help="The cumulative probability for nucleus sampling (top-p). Default is 1.0.",
+    )
+    parser.add_argument(
+        "--top_k",
+        type=int,
+        default=50,
+        help="The number of highest probability vocabulary tokens to keep for top-k sampling. Default is 50.",
+    )
+    parser.add_argument(
+        "--temperature",
+        type=float,
+        default=0.7,
+        help="The value to control the randomness of predictions by scaling the logits before applying softmax. Default is 0.7.",
+    )
+    parser.add_argument("--batch_size", type=int, required=True, help="The batch size.")
+    parser.add_argument(
+        "--torch_dtype",
+        type=str,
+        default="float16",
+        choices=["float16", "float32", "float64"],
+        help="The torch dtype to use during inference.",
+    )
+    parser.add_argument(
+        "--device",
+        type=str,
+        default="cuda",
+        help="The device to use for inference ('cuda' or 'cpu').",
+    )
+
+    # Parse the arguments
+    args = parser.parse_args()
+
+    if args.prompts_dir is not None:
+        filenames = glob.glob(f"{args.prompts_dir}/*.csv")
+        filenames = [
+            filename for filename in filenames if "question_lang:en" in filename
+        ]
+        print(f"Total experiments: {len(filenames)}")
+        for filename in filenames:
+            prompts_df = pd.read_csv(filename)
+            print(f"Running inference for {filename}")
+            print(dashed_line)
+            prompts = prompts_df["prompt"].values.tolist()
+
+            # Run the inference function with the command line arguments
+            predictions = inference(
+                model_name=args.model_name,
+                prompts=prompts,
+                batch_size=args.batch_size,
+                torch_dtype=getattr(torch, args.torch_dtype),
+                device=args.device,
+            )
+
+            # Save predictions to specified output dir
+            assert len(predictions) == prompts_df.shape[0]
+            prompts_df[f"predictions_{args.model_name}"] = predictions
+            output_path = os.path.join(args.output_dir, os.path.basename(filename))
+            prompts_df.to_csv(output_path, index=False)

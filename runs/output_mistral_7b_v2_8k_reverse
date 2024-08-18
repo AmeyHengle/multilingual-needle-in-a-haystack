@@ -1,0 +1,3 @@
+Using device: cuda
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.01it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.06it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.09it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.08it/s]
+Total experiments: 0

@@ -1,0 +1,155 @@
+Using device: cuda
+Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  17%|█▋        | 1/6 [00:00<00:04,  1.13it/s]Loading checkpoint shards:  33%|███▎      | 2/6 [00:01<00:03,  1.13it/s]Loading checkpoint shards:  50%|█████     | 3/6 [00:02<00:02,  1.21it/s]Loading checkpoint shards:  67%|██████▋   | 4/6 [00:03<00:01,  1.26it/s]Loading checkpoint shards:  83%|████████▎ | 5/6 [00:03<00:00,  1.32it/s]Loading checkpoint shards: 100%|██████████| 6/6 [00:04<00:00,  1.37it/s]Loading checkpoint shards: 100%|██████████| 6/6 [00:04<00:00,  1.29it/s]
+Total experiments: 112
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:zh,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:en,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:ar,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:de,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:hi,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:vi,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:vi,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:hi,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:de,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:en,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:zh,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:es,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:hi,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:de,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:ar,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:es,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:es,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:vi,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:en,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:zh,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:ar,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:vi,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:zh,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:zh,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:vi,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:vi,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:en,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:ar,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:de,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Running inference for /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:vi,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Running inference on 100 data points: 100%|██████████| 1/1 [1:32:46<00:00, 5566.20s/it]Running inference on 100 data points: 100%|██████████| 1/1 [1:32:46<00:00, 5566.20s/it]
+Running inference for /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_32k/context_lang:es,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+This is a friendly reminder - the current text generation call will exceed the model's predefined maximum length (32768). Depending on the model, you may observe exceptions, performance degradation, or nothing at all.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.

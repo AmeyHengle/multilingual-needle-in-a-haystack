@@ -1,0 +1,273 @@
+Using device: cuda
+Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  17%|█▋        | 1/6 [01:01<05:05, 61.03s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [01:58<03:55, 58.85s/it]Loading checkpoint shards:  50%|█████     | 3/6 [02:54<02:53, 57.70s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [03:50<01:53, 56.90s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [04:36<00:53, 53.01s/it]Loading checkpoint shards: 100%|██████████| 6/6 [05:01<00:00, 43.50s/it]Loading checkpoint shards: 100%|██████████| 6/6 [05:01<00:00, 50.25s/it]
+Total experiments: 168
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Running inference for /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:middle.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/10 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Running inference on 100 data points:  10%|█         | 1/10 [02:32<22:54, 152.69s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Running inference on 100 data points:  20%|██        | 2/10 [05:03<20:12, 151.58s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Running inference on 100 data points:  30%|███       | 3/10 [07:34<17:40, 151.46s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Running inference on 100 data points:  40%|████      | 4/10 [10:02<15:00, 150.16s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Running inference on 100 data points:  50%|█████     | 5/10 [12:33<12:30, 150.16s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Running inference on 100 data points:  60%|██████    | 6/10 [15:03<10:01, 150.31s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Running inference on 100 data points:  70%|███████   | 7/10 [17:34<07:31, 150.49s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Running inference on 100 data points:  80%|████████  | 8/10 [19:54<04:54, 147.02s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Running inference on 100 data points:  90%|█████████ | 9/10 [22:24<02:28, 148.03s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Running inference on 100 data points: 100%|██████████| 10/10 [24:56<00:00, 149.41s/it]Running inference on 100 data points: 100%|██████████| 10/10 [24:56<00:00, 149.69s/it]
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:vi,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:es,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:zh,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:de,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:es,question_lang:en,noise_type:vi,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:ar,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:end.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:en,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:hi,question_lang:en,noise_type:en,retrieval_type:semantic_similarity,needle_position:start.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:zh,question_lang:en,noise_type:hi,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present
+Skipping file /home/amey/long-context-llms/prompts_new/prompts_Mistral-7B-v1_4k/context_lang:de,question_lang:en,noise_type:ar,retrieval_type:semantic_similarity,needle_position:middle.csv, predictions already present

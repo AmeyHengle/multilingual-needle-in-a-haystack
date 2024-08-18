@@ -1,0 +1,7 @@
+Using device: cuda
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.04it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.07it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.09it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.08it/s]
+Total experiments: 168
+Running inference for /home/amey/long-context-llms/prompts_existence_match_accuracy/prompts_Mistral-7B-Instruct-v0.2_4k/context_lang:zh,question_lang:en,noise_type:multilingual,retrieval_type:semantic_similarity,needle_position:start.csv
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Running inference on 100 data points:   0%|          | 0/1 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
