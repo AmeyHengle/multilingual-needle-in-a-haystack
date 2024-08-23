@@ -26,6 +26,19 @@ conda env create -f environment.yml
 - **results_table/**: Includes the summary tables of results generated from the experiments.
 - **runs/**: Stores the outputs and logs from the various experimental runs.
 
+## Multilingual Question Answering.
+
+Our proposed MLNeedle test is an extension of the multilingual QA task to the long-context format. For this, we choose the MLQA dataset because of it's parallel data structure. That is, for a given question, MLQA provides the relevant information ( `needle` ) in multiple languages. As example, please consider the following instance from the MLQA dataset which highlights it's parallel structure. 
+
+| ID                                   | Question                     | Context (Needle)                                                                                                                                                                     | Question Lang | Context Lang | Answer (Groundtruth)                                                                                             |
+|--------------------------------------|------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|--------------|------------------------------------------------------------------------------------------------------------------|
+| 1 | How can you activate EFS?    | The support of EFS is not available in Basic, Home, and MediaCenter versions of Windows, and must be activated after installation of Professional, Ultimate, and Server versions of Windows or by using enterprise deployment tools within Windows domains. | en            | en           | after installation of Professional, Ultimate, and Server versions of Windows or by using enterprise deployment tools within Windows domains |
+| 1 | How can you activate EFS?    | EFS की सुविधा Windows के बेसिक, होम तथा मीडिया सेंटर संस्करण में उपलब्ध नहीं है तथा Windows के प्रोफेशनल, अल्टीमेट तथा सर्वर संस्करण के लोड करने के पश्चात या Windows डोमेन में इंटरप्राईज़ द्वारा प्रदत्त टूल का प्रयोग करके एक्टिवेट की जानी चाहिए।                  | en            | hi           | Windows के प्रोफेशनल, अल्टीमेट तथा सर्वर संस्करण के लोड करने के पश्चात या Windows डोमेन में इंटरप्राईज़ द्वारा प्रदत्त टूल का प्रयोग करके                 |
+| 1 | How can you activate EFS?    | Sự hỗ trợ của EFS không có sẵn trong các phiên bản Basic, Home và MediaCenter của Windows, và nó phải được kích hoạt sau khi cài đặt các phiên bản Professional, Ultimate và Server của Windows hay bằng cách sử dụng các công cụ đặc biệt.                  | en            | vi           | sau khi cài đặt các phiên bản Professional, Ultimate và Server của Windows hay bằng cách sử dụng các công cụ đặc biệt.           |
+| 1 | How can you activate EFS?    | Basic、Home和MediaCenter版本的Windows不支持磁盘限额功能。要使用这个功能，必须安装Professional、Ultimate或者服务器版本的Windows，或者使用Windows域中的企业部署工具进行部署。                | en            | zh           | 安装Professional、Ultimate或者服务器版本的Windows，或者使用Windows域中的企业部署工具进行部署。                                          |
+
+
+
 ### Results Overview:
 
 1. **Model Performance vs. Context Size**:
