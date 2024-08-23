@@ -44,14 +44,20 @@ Our proposed MLNeedle test is an extension of the multilingual QA task to the lo
 1. **Model Performance vs. Context Size**:
    - All models exhibit a significant drop in performance as the context length increases, indicating their limited capability to handle long contexts effectively.
    - **Table 1** provides a summary of each model's performance across context sizes (4K to 32K tokens). The effective context length is often much shorter than the claimed length by the model.
+ 
+      ![Dataset Example 1](plots/results_table.png)  
 
 2. **Effect of Needle Position**:
    - The models perform best when the relevant information (needle) is positioned at the start or end of the input context.
    - A significant performance drop is observed when the needle is located in the middle, highlighting the "lost-in-the-middle" phenomenon.
 
+      ![Dataset Example 1](plots/figure_effect_of_position_relevant_information.pdf)
+
+
 3. **Effect of Needle Language**:
    - Performance is highest when the needle is in English or a language close to English (e.g., German or Spanish).
    - **Figure 3** illustrates the substantial drop in performance when the needle is in non-Latin languages such as Chinese or Arabic.
+      ![Dataset Example 1](plots/figure_effect_of_needle_language.pdf)
 
 4. **Effect of Haystack Language**:
    - Changing the language of distractor documents (haystack) has a minimal impact on model performance, indicating that the models can prioritize relevant information effectively regardless of distractor language.
@@ -60,9 +66,11 @@ Our proposed MLNeedle test is an extension of the multilingual QA task to the lo
 5. **Ablation Studies**:
    - **Temperature Sampling vs. Greedy Decoding**: Both generation strategies yield comparable results across different context sizes.
    - **Instruction Fine-tuning**: Instruction-tuned models consistently outperform their base variants, particularly in multilingual and long-context scenarios.
+      ![Dataset Example 1](plots/figure_dataset_1.pdf)
 
 6. **Statistical Significance**:
    - The accuracy stabilizes after approximately 2,500 samples, confirming the reliability of the evaluation outcomes.
+      ![Dataset Example 1](plots/figure_dataset_1.pdf)
 
 7. **Visualization**:
    - **Figure 1** and **Figure 4** provide visual insights into the performance across different languages and needle positions.
@@ -81,3 +89,4 @@ If you found this repository helpful, please consider citating our paper!
       url={https://arxiv.org/abs/2408.10151}, 
 }
 ```
+
