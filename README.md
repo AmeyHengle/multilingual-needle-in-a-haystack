@@ -68,4 +68,16 @@ Our proposed MLNeedle test is an extension of the multilingual QA task to the lo
    - **Figure 1** and **Figure 4** provide visual insights into the performance across different languages and needle positions.
 
 ## Citation
-If you use this code or data in your work, please cite the original paper.
+If you found this repository helpful, please consider citating our paper!
+
+```
+@misc{hengle2024multilingualneedlehaystackinvestigating,
+      title={Multilingual Needle in a Haystack: Investigating Long-Context Behavior of Multilingual Large Language Models}, 
+      author={Amey Hengle and Prasoon Bajpai and Soham Dan and Tanmoy Chakraborty},
+      year={2024},
+      eprint={2408.10151},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2408.10151}, 
+}
+```
