@@ -1,32 +1,32 @@
 
-# Multilingual Needle-in-a-Haystack (MLNeedle). 
+## Multilingual Needle-in-a-Haystack (MLNeedle). 
 
 We introduce **MultiLingual Needle-in-a-Haystack (MLNeedle)** test, designed to evaluate the ability of multilingual large language models (LLMs) to retrieve relevant information from long multilingual contexts. Our results reveal that LLMs struggle with retrieving information when it is in non-Latin languages or positioned in the middle of a long context. Going further into these findings, we observe that the models show relatively stable performance when the distractor passages are in different languages but still face significant challenges in handling long multilingual contexts effectively.
 
 
-## Installation
+### Installation
 
-### Via `requirements.txt` (using `pip`)
+#### Via `requirements.txt` (using `pip`)
 To install the required dependencies using pip, you can run the following command:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Via `environment.yml` (using `conda`)
+#### Via `environment.yml` (using `conda`)
 To create a conda environment with the required dependencies, use the following command:
 
 ```bash
 conda env create -f environment.yml
 ```
 
-## Overview of Directory Structure
+### Overview of Directory Structure
 
 - **experiments/**: Contains the scripts and configuration files for running the experiments.
 - **results_table/**: Includes the summary tables of results generated from the experiments.
 - **runs/**: Stores the outputs and logs from the various experimental runs.
 
-## Multilingual Question Answering.
+### Multilingual Question Answering.
 
 Our proposed MLNeedle test is an extension of the multilingual QA task to the long-context format. For this, we choose the MLQA dataset because of it's parallel data structure. That is, for a given question, MLQA provides the relevant information ( `needle` ) in multiple languages. As example, please consider the following instance from the MLQA dataset which highlights it's parallel structure. 
 
@@ -39,7 +39,7 @@ Our proposed MLNeedle test is an extension of the multilingual QA task to the lo
 
 
 
-### Results Overview:
+### Results:
 
 1. **Model Performance vs. Context Size**:
    - All models exhibit a significant drop in performance as the context length increases, indicating their limited capability to handle long contexts effectively.
@@ -51,31 +51,16 @@ Our proposed MLNeedle test is an extension of the multilingual QA task to the lo
    - The models perform best when the relevant information (needle) is positioned at the start or end of the input context.
    - A significant performance drop is observed when the needle is located in the middle, highlighting the "lost-in-the-middle" phenomenon.
 
-      ![Dataset Example 1](plots/figure_effect_of_position_relevant_information.pdf)
+      ![Dataset Example 1](plots/figure_effect_of_position_relevant_information.png)
 
 
 3. **Effect of Needle Language**:
    - Performance is highest when the needle is in English or a language close to English (e.g., German or Spanish).
    - **Figure 3** illustrates the substantial drop in performance when the needle is in non-Latin languages such as Chinese or Arabic.
-      ![Dataset Example 1](plots/figure_effect_of_needle_language.pdf)
+      ![Dataset Example 1](plots/figure_effect_of_needle_language.png)
 
-4. **Effect of Haystack Language**:
-   - Changing the language of distractor documents (haystack) has a minimal impact on model performance, indicating that the models can prioritize relevant information effectively regardless of distractor language.
-   - **Table 2** summarizes the pairwise accuracy of models when the language of the needle and haystack is varied.
 
-5. **Ablation Studies**:
-   - **Temperature Sampling vs. Greedy Decoding**: Both generation strategies yield comparable results across different context sizes.
-   - **Instruction Fine-tuning**: Instruction-tuned models consistently outperform their base variants, particularly in multilingual and long-context scenarios.
-      ![Dataset Example 1](plots/figure_dataset_1.pdf)
-
-6. **Statistical Significance**:
-   - The accuracy stabilizes after approximately 2,500 samples, confirming the reliability of the evaluation outcomes.
-      ![Dataset Example 1](plots/figure_dataset_1.pdf)
-
-7. **Visualization**:
-   - **Figure 1** and **Figure 4** provide visual insights into the performance across different languages and needle positions.
-
-## Citation
+### Citation
 If you found this repository helpful, please consider citating our paper!
 
 ```
