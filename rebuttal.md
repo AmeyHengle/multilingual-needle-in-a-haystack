@@ -1,4 +1,3 @@
-
 ### Reviewer 1
 
 > **I don't think the "lost in the middle" phenomenon is prominent in Figure 4. Either the position could be more fine-grained to verify the trend in the accuracy, or the descriptions should be more precise (Line 301-303)**
@@ -44,6 +43,13 @@
    iii) **Revised Figure 4**  
     The revised version of Figure 4 will reflect this new grouping, which we believe offers a linguistically meaningful way to interpret the results. We commit to include this table in the Appendix and further detail our rationale and the use of lang2vec in the revised manuscript .
 
+
+
+#### References
+[1] The State and Fate of Linguistic Diversity and Inclusion in the NLP World. https://aclanthology.org/2020.acl-main.560
+[2]Hugo Touvron and Louis Martin. 2023. Llama 2: Open foundation and fine-tuned chat models. https://arxiv.org/abs/2307.09288
+[3] URIEL and lang2vec: Representing languages as typological, geographical, and phylogenetic vectors https://aclanthology.org/2024.tacl-1.9/
+
 ---
 ---
 
@@ -70,7 +76,7 @@
 
 > **I find that the experimentation could have included more languages, particularly focusing on those less represented in the study, to better gauge the model's performance across varied linguistic landscapes.**
 5. Our experiments are based on the MLQA dataset, which forms the foundation for our MLNeedle test framework. Consequently, our language selection was limited to those included in MLQA. 
-6. We choose to rely purely on existing open-source datasets like MLQA and mMarco to ensure that all languages have high-quality, aligned question-answer pairs and add reliability to our experiements -- following the precedence of similar studies in English long-context evaluation [4, 5].
+6. We choose to rely purely on existing open-source datasets like MLQA and mMarco to ensure that all languages have high-quality, aligned question-answer pairs and add reliability to our experiements -- following the precedence of a similar study in English long-context evaluation [4].
 7.  Furthermore, we believe that the seven languages included in MLQA—English (eng), Arabic (ara), German (deu), Spanish (spa), Hindi (hin), Vietnamese (vie), and Simplified Chinese (zho)— represent a wide range of linguistic diversity. These languages span:
 	-   **Language families**: Indo-European (eng, spa, hin, deu), Afro-Asiatic (ara), Sino-Tibetan (zho), and Austroasiatic (vie).
 	-   **Scripts**: Latin (eng, spa, deu, vie), Arabic (ara), Devanagari (hin), and Simplified Chinese (zho).
@@ -84,6 +90,9 @@
 1.  We acknowledge the reviewer's suggestion and agree that qualitative examples can offer valuable insights into model performance.
 2. While our manuscript already includes some dataset-specific examples in Figures 2 and 9, we commit to adding a similar table of qualitative examples (model-outputs and error cases) in Appendix F of our revised manuscript.
 
+
+#### References
+[4] Lost in the Middle: How Language Models Use Long Contexts (Liu et al., TACL 2024) https://aclanthology.org/2024.tacl-1.9/
 
 ---
 ---
@@ -100,9 +109,10 @@
 
 ---
 
+
 > **My one major concern is about the exact accuracy metric as it applies to non-English text. Non-English text here is at a disadvantage-- it has to be translated into English first, before it can be compared against the answer. This has to be a lossy process. Have you attempted to measure the error rate of this process? One could imagine that if translation were poor, it could account for the degradation you are currently attributing to the language of the relevant information and the LLM's ability to retrieve from it.**
 1. We acknowledge that translating non-English model outputs into English for comparison introduces the potential for translation errors, which could affect the exact accuracy scores. While we have not explicitly measured translation error rates in this study, we took some steps to minimize their potential impact:
-2. To begin with, we use the **Google Translate service**, which is recognized for its high success rates in multilingual translation, particularly for widely spoken languages such as those included in our study [citation].
+2. To begin with, we use the **Google Translate service**, which is recognized for its high success rates in multilingual translation, particularly for widely spoken languages such as those included in our study [5].
 3. Furthermore, we chose MLQA as the source for the "needles" specifically because of its highly parallel structure:
     - **MLQA provides ground-truth answers in at least four languages for each example**. This ensures that exact accuracy computations are more reliable compared to datasets with fewer or less aligned multilingual ground-truths.
     - **The dataset is aligned at the sentence level, minimizing ambiguity in ground-truth answers during translation**. This helps achieving consistency when evaluating model outputs across different languages. 
@@ -116,3 +126,8 @@
 2. Existence accuracy is included in our experiments to ensure that LLMs are not relying on parametric knowledge to answer questions. **If LLM were answering based entirely on parametric knowledge, their existence accuracy would always achieve a perfect score of 1.0**, as it would not need to rely on the context to identify whether the needle is present. However, **Figure 7** shows that existence accuracy is far from perfect and is influenced by both the language and position of the needle, demonstrating that LLMs are indeed processing the input context dynamically.
 3. The reviewer is correct in noting that the needle is always included in the input context. We do not ommit it. Ideally, this should mean that an LLM is always able to identify its presence. However, as discussed in **Section 4 (Line 400)**, our findings indicate that the ability of LLMs to recognize explicitly stated information is affected by both the language of the needle and its position within the context. This underscores the limitations of current LLMs in reliably handling multilingual and long-context inputs.
 5. We commit to define and describe existence accuracy in a more clear manner in our final manuscript. 
+
+
+
+#### References
+[5] How accurate is Google Translate? Google Translate vs DeepL https://lokalise.com/blog/google-translate-accuracy/
