@@ -46,8 +46,8 @@
 
 
 #### References
-[1] The State and Fate of Linguistic Diversity and Inclusion in the NLP World. https://aclanthology.org/2020.acl-main.560
-[2]Hugo Touvron and Louis Martin. 2023. Llama 2: Open foundation and fine-tuned chat models. https://arxiv.org/abs/2307.09288
+[1] The State and Fate of Linguistic Diversity and Inclusion in the NLP World. https://aclanthology.org/2020.acl-main.560 <br>
+[2]Hugo Touvron and Louis Martin. 2023. Llama 2: Open foundation and fine-tuned chat models. https://arxiv.org/abs/2307.09288 <br>
 [3] URIEL and lang2vec: Representing languages as typological, geographical, and phylogenetic vectors https://aclanthology.org/2024.tacl-1.9/
 
 ---
