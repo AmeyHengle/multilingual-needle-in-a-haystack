@@ -124,8 +124,8 @@
 
 > **I am also a little confused about the existence accuracy metric. The way you have constructed the context, isn't the information always present? Or do you omit it some percentage of the time?**
 1. **Existence accuracy** measures whether a model can correctly determine if the relevant information (the "needle") is present within the input context. This is different from **exact accuracy**, which evaluates whether the model retrieves and outputs the correct answer explicitly. Existence accuracy serves as a simpler, yet critical, task for evaluating a model's **ability to locate relevant information in a multilingual, long-context** setting.
-2. In essense, existence accuracy measures the recall value of the LLM. 
-3. The reviewer is correct in noting that the needle is always included in the input context. We do not omit it. Ideally, this should mean that an LLM is always able to identify its presence. However, as discussed in **Section 4 (Line 400)**, our findings indicate that the ability of LLMs to recognize explicitly stated information is affected by both the language of the needle and its position within the context. This underscores the limitations of current LLMs in reliably handling multilingual and long-context inputs.
+2. The reviewer is correct in noting that the needle is always included in the input context. We do not omit it. **In essense, existence accuracy measures the recall value of the LLM.**
+3. Ideally, this should mean that an LLM is always able to identify its presence. However, as discussed in **Section 4 (Line 400)**, our findings indicate that the ability of LLMs to recognize explicitly stated information is affected by both the language of the needle and its position within the context. This underscores the limitations of current LLMs in reliably handling multilingual and long-context inputs.
 4. We commit to define and describe existence accuracy in a more clear manner in our final manuscript. 
 
 
