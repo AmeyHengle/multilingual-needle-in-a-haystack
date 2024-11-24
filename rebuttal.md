@@ -102,9 +102,13 @@
 
 ---
 
-
 > **My one major concern is about the exact accuracy metric as it applies to non-English text. Non-English text here is at a disadvantage-- it has to be translated into English first, before it can be compared against the answer. This has to be a lossy process. Have you attempted to measure the error rate of this process? One could imagine that if translation were poor, it could account for the degradation you are currently attributing to the language of the relevant information and the LLM's ability to retrieve from it.**
-1. (Needs experiments)
+1. We acknowledge that translating non-English model outputs into English for comparison introduces the potential for translation errors, which could affect the exact accuracy scores. While we have not explicitly measured translation error rates in this study, we took some steps to minimize their potential impact:
+2. To begin with, we use the **Google Translate service**, which is recognized for its high success rates in multilingual translation, particularly for widely spoken languages such as those included in our study [citation].
+3. Furthermore, we chose MLQA as the source for the "needles" specifically because of its highly parallel structure:
+    - **MLQA provides ground-truth answers in at least four languages for each example**. This ensures that exact accuracy computations are more reliable compared to datasets with fewer or less aligned multilingual ground-truths.
+    - **The dataset is aligned at the sentence level, minimizing ambiguity in ground-truth answers during translation**. This helps achieving consistency when evaluating model outputs across different languages. 
+4. We appreciate the reviewer’s suggestion and will include a discussion of this potential limitation in the revised manuscript. 
 
 ---
 
