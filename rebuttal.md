@@ -69,7 +69,7 @@
 
 > **The paper could benefit from a more detailed discussion of the constraints experienced with the selected models, especially regarding those not evaluated, like larger parameter LLMs (e.g., Command-R or GPT-4). Understanding the potential improvements from these models would give readers a more complete view of the challenges in multilingual contexts.**
 1. We could not include Command-R and GPT-4 due to budget constraints. However, we make our evaluation as extensive as possible - using a diverse setup of LLMs like Mistral, Cohere-Aya, and Llama3. Furthermore, we also conduct ablation studies with varying decoding strategies and compare base vs instruction-tuned models. 
-2. We acknowledge the reviewer's suggestion. A detailed discussion regarding the constraints experienced in selecting the evaluated models and the potential impact of including larger parameter LLMs such as Command-R or GPT-4 could benifit this study.
+2. We also acknowledge the reviewer's suggestion. A detailed discussion regarding the constraints experienced in selecting the evaluated models and the potential impact of including larger parameter LLMs could benifit our study.
 3. In response, we commit to include a detailed explanation in **section 2.3 (Models)** of the revised manuscript to clarify the reasons for our model selection, including limitations related to computational resources, budget, and access to proprietary models. 
 4. Additionally, we will also commit to expanding **section 7 (Limitations)** to discuss the potential benefits and challenges of evaluating larger models in multilingual and long-context settings.
 
