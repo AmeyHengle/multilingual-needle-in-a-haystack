@@ -4,6 +4,7 @@
 
 1. We appreciate the reviewer’s observation regarding the granularity of needle positions in Figure 4 and its impact on illustrating the "lost in the middle" phenomenon.
 3. In the revised manuscript, we commit to updating Figure 4 with results from a finer-grained analysis of needle positions. Specifically, we will expand the current evaluation (start \(k=0\), middle \(k=n/2\), and end \(k=n\)) by including six additional intermediate positions across the context. This updated figure will provide a more detailed view of the trend in accuracy, further verifying the "lost in the middle" phenomenon and offering a clearer understanding of how needle position affects performance.
+4. Having this benchmark will enable the community 
 
 ---
 
@@ -106,7 +107,7 @@
 1. We appreciate the reviewer’s understanding that introducing novel techniques is not the primary goal of this work. 
 2. Grounded in the principle ***"what cannot be measured, cannot be improved"***, the primary motivation of our study is to establish a reliable and systematic framework for evaluating the long-context capabilities of multilingual LLMs.
 3. While existing long-context evaluation benchmarks focus exclusively on English, to the best of our knowledge, our proposed MLNeedle test is the first framework designed to systematically evaluate and study the long-context behavior of LLMs in multilingual settings.
-
+4. Hence, we believe that our benchmark will be useful for the community to 
 ---
 
 
@@ -124,8 +125,8 @@
 > **I am also a little confused about the existence accuracy metric. The way you have constructed the context, isn't the information always present? Or do you omit it some percentage of the time?**
 1. **Existence accuracy** measures whether a model can correctly determine if the relevant information (the "needle") is present within the input context. This is different from **exact accuracy**, which evaluates whether the model retrieves and outputs the correct answer explicitly. Existence accuracy serves as a simpler, yet critical, task for evaluating a model's **ability to locate relevant information in a multilingual, long-context** setting.
 2. Existence accuracy is included in our experiments to ensure that LLMs are not relying on parametric knowledge to answer questions. **If LLM were answering based entirely on parametric knowledge, their existence accuracy would always achieve a perfect score of 1.0**, as it would not need to rely on the context to identify whether the needle is present. However, **Figure 7** shows that existence accuracy is far from perfect and is influenced by both the language and position of the needle, demonstrating that LLMs are indeed processing the input context dynamically.
-3. The reviewer is correct in noting that the needle is always included in the input context. We do not ommit it. Ideally, this should mean that an LLM is always able to identify its presence. However, as discussed in **Section 4 (Line 400)**, our findings indicate that the ability of LLMs to recognize explicitly stated information is affected by both the language of the needle and its position within the context. This underscores the limitations of current LLMs in reliably handling multilingual and long-context inputs.
-5. We commit to define and describe existence accuracy in a more clear manner in our final manuscript. 
+3. The reviewer is correct in noting that the needle is always included in the input context. We do not omit it. Ideally, this should mean that an LLM is always able to identify its presence. However, as discussed in **Section 4 (Line 400)**, our findings indicate that the ability of LLMs to recognize explicitly stated information is affected by both the language of the needle and its position within the context. This underscores the limitations of current LLMs in reliably handling multilingual and long-context inputs.
+4. We commit to define and describe existence accuracy in a more clear manner in our final manuscript. 
 
 
 
