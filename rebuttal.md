@@ -75,14 +75,14 @@
 
 
 > **I find that the experimentation could have included more languages, particularly focusing on those less represented in the study, to better gauge the model's performance across varied linguistic landscapes.**
-5. Our experiments are based on the MLQA dataset, which forms the foundation for our MLNeedle test framework. Consequently, our language selection was limited to those included in MLQA. 
-6. We choose to rely purely on existing open-source datasets like MLQA and mMarco to ensure that all languages have high-quality, aligned question-answer pairs and add reliability to our experiements -- following the precedence of a similar study in English long-context evaluation [4].
-7.  Furthermore, we believe that the seven languages included in MLQA—English (eng), Arabic (ara), German (deu), Spanish (spa), Hindi (hin), Vietnamese (vie), and Simplified Chinese (zho)— represent a wide range of linguistic diversity. These languages span:
+1. Our experiments are based on the MLQA dataset, which forms the foundation for our MLNeedle test framework. Consequently, our language selection was limited to those included in MLQA. 
+2. We choose to rely purely on existing open-source datasets like MLQA and mMarco to ensure that all languages have high-quality, aligned question-answer pairs and add reliability to our experiements -- following the precedence of a similar study in English long-context evaluation [4].
+3.  Furthermore, we believe that the seven languages included in MLQA—English (eng), Arabic (ara), German (deu), Spanish (spa), Hindi (hin), Vietnamese (vie), and Simplified Chinese (zho)— represent a wide range of linguistic diversity. These languages span:
 	-   **Language families**: Indo-European (eng, spa, hin, deu), Afro-Asiatic (ara), Sino-Tibetan (zho), and Austroasiatic (vie).
 	-   **Scripts**: Latin (eng, spa, deu, vie), Arabic (ara), Devanagari (hin), and Simplified Chinese (zho).
 	-   **Regions**: Languages from Europe, the Americas, South Asia, East Asia, and the Middle East are included.
-8.  Hence, even though adding more languages to our study would add confidence to our findings, we feel that the results and their implications would not necessarily change. Given the diversity of the chosen languages, we expect that our findings—such as sensitivity to needle position—would generalise to other languages not currently included in the study.
-9. Lastly, we have designed the MLNeedle test framework to be modular and flexible. This will allow us to expand it iteratively in future work by incorporating additional languages, particularly low-resoured and regional ones! 
+4.  Hence, even though adding more languages to our study would add confidence to our findings, we feel that the results and their implications would not necessarily change. Given the diversity of the chosen languages, we expect that our findings—such as sensitivity to needle position—would generalise to other languages not currently included in the study.
+5. Lastly, we have designed the MLNeedle test framework to be modular and flexible. This will allow us to expand it iteratively in future work by incorporating additional languages, particularly low-resoured and regional ones! 
 
 ---
 
