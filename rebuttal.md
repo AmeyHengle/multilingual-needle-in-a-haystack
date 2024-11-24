@@ -57,12 +57,10 @@
 ### Reviewer 2
 > **I think the limitation regarding the dependency on the MLQA dataset is a potential concern, as it makes it difficult to differentiate whether LLMs are utilizing contextual understanding or simply relying on curated knowledge. A wider variety of needle sources could enhance the robustness of the findings.**
 
-1.  While the limitation regarding MLQA dataset is valid, our experiments and ablation study provide sufficient evidence to conjecture that LLMs are not answering from curated / parametric knowledge.
-    
-2.  Firstly, our experiments (Figure 4) prove that LLM performance is highly sensitive to the position of the needle within the context. Specifically, models exhibit a "lost in the middle" phenomenon, struggling to retrieve the same piece of information when it is located in the middle of a long input. This positional bias would not be evident if models were solely relying on parametric retrieval, as both the query and the needle remain unchanged regardless of position. The sensitivity to context structure strongly suggests that models are indeed processing input context dynamically.
-    
-
-3. As further evidence, our ablation study using existence accuracy (Figure 7) shows a similar trend. Existence accuracy is consistently affected by both the language and the position of the needle. If models were relying purely on parametric knowledge, they would achieve perfect existence accuracy (a score of 1) regardless of these variables. Instead, we observe performance variations, further supporting that LLMs are leveraging the input-context rather than memorized knowledge.
+1.  While the limitation regarding MLQA dataset is valid, our experiments and ablation study may provide sufficient evidence to conjecture that LLMs are not answering from curated / parametric knowledge.
+2.  Firstly, our experiments **(Figure 4)** prove that LLM performance is highly sensitive to the position of the needle within the context. Specifically, models exhibit a "lost in the middle" phenomenon, struggling to retrieve the same piece of information when it is located in the middle of a long input. This positional bias would not be evident if models were solely relying on parametric retrieval, as both the query and the needle remain unchanged regardless of position. This suggests that the LLMs are processing input context dynamically. 
+3.  This is also supported by results in **Table 1 (Baseline)**. We can see that for all LLMs, the baseline performance (i.e with no distractor passages) is not-perfect.   
+4. As further evidence, our ablation study using existence accuracy (Figure 7) shows a similar trend. Existence accuracy is consistently affected by both the language and the position of the needle. If models were relying purely on parametric knowledge, they would achieve perfect existence accuracy (a score of 1) regardless of these variables. Instead, we observe performance variations, further supporting that LLMs are leveraging the input-context rather than memorized knowledge.
 
 ---
 
