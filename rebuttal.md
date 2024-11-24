@@ -6,8 +6,6 @@
 1. We appreciate the reviewer’s observation regarding the granularity of needle positions in Figure 4 and its impact on illustrating the "lost in the middle" phenomenon.
 3. In the revised manuscript, we commit to updating Figure 4 with results from a finer-grained analysis of needle positions. Specifically, we will expand the current evaluation (start \(k=0\), middle \(k=n/2\), and end \(k=n\)) by including six additional intermediate positions across the context. This updated figure will provide a more detailed view of the trend in accuracy, further verifying the "lost in the middle" phenomenon and offering a clearer understanding of how needle position affects performance.
 
-    (Needs Revision)
-
 ---
 
 > **Why separate the results in Figure 4 into high-medium/low-resource languages? The trend looks similar.**
